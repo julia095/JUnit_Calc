@@ -31,23 +31,23 @@ public class CalculatorTest {
 		assertEquals("myltiply error",6,Calculator.multyply(3, 2),0.1);	
 	}
 	
-	@Test
-	public void testDivide() {
-		assertEquals("divide error",6,Calculator.divide(36, 6),0.1);	
-	}
+	//@Test
+	//public void testDivide() {
+	//	assertEquals("divide error",6,Calculator.divide(36, 6),0.1);	
+	//}
 		
 	  	
-	@Test
-	  public void divideByZero_throws_exception() {
-		try {
-            double divideresult = Calculator.divide(5, 0);
-
-            fail("should throw an exception");
-        } catch (ArithmeticException e){
-            assertThat(e.getMessage(), containsString("/ by zero"));
-            assertThat(e, instanceOf(ArithmeticException.class));
-        }
-	  }      	
+	//@Test
+	 // public void divideByZero_throws_exception() {
+	///	try {
+    ///        double divideresult = Calculator.divide(5, 0);
+//
+    //        fail("should throw an exception");
+   //     } catch (ArithmeticException e){
+   //         assertThat(e.getMessage(), containsString("/ by zero"));
+  //          assertThat(e, instanceOf(ArithmeticException.class));
+ //   /    }
+	//  }      	
     }
 
 
